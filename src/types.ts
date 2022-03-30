@@ -10,3 +10,13 @@ export interface Stock {
   id: number;
   amount: number;
 }
+
+export interface CartFormatted {
+  id: number;
+  title: string;
+  price: number;
+  image: string;
+  amount: number;
+  priceFormatted: string;
+  subTotal: string;
+}
